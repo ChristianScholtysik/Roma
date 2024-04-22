@@ -19,4 +19,4 @@ Live demo [_here_](https://christianscholtysik.github.io/Roma/).
 
 ## Screenshots
 
-![Example screenshot](./assets/img/christianscholtysik-github-io-1920x768desktop-c44237.png)
+![Example screenshot](./assets/img/christianscholtysik-github-io-1920xFULLdesktop-c44237.png)
