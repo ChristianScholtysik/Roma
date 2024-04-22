@@ -1,0 +1,25 @@
+@use "_variables" as variables;
+@use "_fonts" as fonts;
+@use "_mixin" as mixin;
+
+//GLOBAL
+
+* {
+  padding: variables.$padding-start;
+  margin: variables.$margin-start;
+  box-sizing: variables.$bx-size;
+  font-family: fonts.$fontSantio;
+}
+
+body {
+  background-image: url(../img/cleo-topper.jpg);
+  background-blend-mode: multiply;
+}
+//HEADER
+
+header {
+  @include mixin.navBar;
+  @include mixin.headerSection;
+}
+
+//MAIN

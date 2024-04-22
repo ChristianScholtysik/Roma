@@ -1,0 +1,59 @@
+@use "_variables" as variables;
+@use "_fonts" as fonts;
+
+@mixin textBlock {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+@mixin navBar {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3rem;
+    width: 95vw;
+    gap: 20px;
+    padding-right: 2rem;
+
+    li {
+      list-style: none;
+      img {
+        height: 2rem;
+        display: flex;
+        align-items: center;
+      }
+      .navText {
+        color: variables.$main-color;
+        // text-decoration: underline;
+        border-bottom-style: solid;
+        border-bottom-width: 1.1px;
+        padding-bottom: 5px;
+        border-bottom-color: variables.$main-secondaryColor;
+        text-decoration-color: variables.$main-secondaryColor;
+
+        font-family: fonts.$fontInter;
+      }
+    }
+  }
+}
+
+@mixin headerSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+
+  h1 {
+    margin-top: 11rem;
+    color: variables.$main-color;
+    font-size: variables.$main-h1Size;
+    width: 15vh;
+  }
+  .headerText {
+    margin-top: 10rem;
+    color: variables.$main-secondaryColor;
+    font-size: variables.$main-fontSize;
+    font-family: fonts.$fontDafoe;
+  }
+}
