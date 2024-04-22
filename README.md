@@ -10,7 +10,7 @@ Live demo [_here_](https://christianscholtysik.github.io/Roma/).
 
 ## General Information
 
-- Website Project to SASS / SCSS
+- Website Project to learn SASS / SCSS
 
 ## Technologies Used
 
