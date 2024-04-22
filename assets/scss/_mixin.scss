@@ -57,3 +57,168 @@
     font-family: fonts.$fontDafoe;
   }
 }
+
+//MAIN
+
+@mixin SectionText {
+  margin: 35vh 15vw;
+  width: 23vw;
+  letter-spacing: 2px;
+  line-height: 45px;
+  font-size: variables.$main-h3Size;
+  font-family: fonts.$fontSantio;
+  color: variables.$main-fourthColor;
+  .textEm {
+    color: white;
+    font-style: normal;
+    background-color: variables.$main-bgColor;
+  }
+}
+
+@mixin secSection {
+  margin: 35vh 15vw;
+  width: 33vw;
+  letter-spacing: 2px;
+  font-size: variables.$sec-h3Size;
+  font-family: fonts.$fontSantio;
+  color: variables.$main-secondaryColor;
+  img {
+    width: 4vw;
+  }
+
+  h2 {
+    font-size: variables.$sec-h2Size;
+    color: variables.$main-secondaryColor;
+    line-height: 145px;
+  }
+  .workers {
+    color: white;
+    font-style: normal;
+    background-color: variables.$main-bgColor;
+  }
+}
+
+@mixin thirdSection {
+  margin: 35vh 15vw;
+  width: 33vw;
+  letter-spacing: 2px;
+  font-size: variables.$sec-h3Size;
+  font-family: fonts.$fontSantio;
+  color: variables.$main-thirdColor;
+  img {
+    width: 4vw;
+  }
+
+  h2 {
+    font-size: variables.$sec-h2Size;
+    color: variables.$main-thirdColor;
+    line-height: 145px;
+  }
+  .workers {
+    color: white;
+    font-style: normal;
+    background-color: variables.$main-bgColor;
+  }
+}
+
+@mixin fourthSection {
+  margin: 35vh 15vw;
+  width: 33vw;
+  letter-spacing: 2px;
+  font-size: variables.$sec-h3Size;
+  font-family: fonts.$fontSantio;
+  color: variables.$main-fourthColor;
+  img {
+    width: 4vw;
+  }
+
+  h2 {
+    font-size: variables.$sec-h2Size;
+    color: variables.$main-fourthColor;
+    line-height: 145px;
+  }
+  .workers {
+    color: white;
+    font-style: normal;
+    background-color: variables.$main-bgColor;
+  }
+}
+
+@mixin fifthSection {
+  margin: 35vh 15vw;
+  width: 23vw;
+  letter-spacing: 2px;
+  line-height: 45px;
+  font-size: variables.$main-h3Size;
+  font-family: fonts.$fontSantio;
+  color: variables.$main-fifthColor;
+  .textEm {
+    color: white;
+    font-style: normal;
+    background-color: variables.$main-bgColor;
+  }
+}
+
+@mixin sixthSection {
+  min-width: 100vw;
+  background-color: white;
+  margin: 0 auto;
+  overflow: hidden;
+  margin: 10px 0 -15px 0;
+  div {
+    background-image: url(../img/see.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    img {
+      width: 100vw;
+    }
+  }
+}
+
+@mixin footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height: 70vh;
+  color: white;
+  line-height: 55px;
+  overflow: hidden;
+  padding-top: 15vh;
+  margin-top: 0px;
+
+  p {
+    font-size: variables.$main-h3Size;
+
+    margin: 0 15vw;
+  }
+  button {
+    margin: 2vh 15vw;
+    font-family: fonts.$fontInter;
+    width: fit-content;
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem 1rem;
+    background-color: black;
+    border: solid 2px white;
+  }
+
+  button:hover {
+    cursor: pointer;
+    box-shadow: 13px 20px 0px -2px rgba(255, 255, 255, 1);
+  }
+  .subText {
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45%;
+    padding: 5vh 0 5px 0;
+    a {
+      text-decoration: none;
+      color: #6bc1a3;
+    }
+    a:hover {
+      color: #23d295;
+    }
+  }
+}

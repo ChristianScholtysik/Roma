@@ -13,6 +13,10 @@
 
 body {
   background-image: url(../img/cleo-topper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
   background-blend-mode: multiply;
 }
 //HEADER
@@ -23,3 +27,27 @@ header {
 }
 
 //MAIN
+section {
+  @include mixin.SectionText;
+}
+.secSection {
+  @include mixin.secSection;
+}
+.thirdSec {
+  @include mixin.thirdSection;
+}
+.fourthSection {
+  @include mixin.fourthSection;
+}
+
+.fifthSection {
+  @include mixin.fifthSection;
+}
+
+.sixthSection {
+  @include mixin.sixthSection;
+}
+
+footer {
+  @include mixin.footer;
+}
