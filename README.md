@@ -1,6 +1,6 @@
 # ROMA
 
-Live demo [_here_](https://christianscholtysik.github.io/Photo_Gallery/).
+Live demo [_here_](https://christianscholtysik.github.io/Roma/).
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@ Live demo [_here_](https://christianscholtysik.github.io/Photo_Gallery/).
 
 ## General Information
 
-- Website Project to SASS / SCSS 
+- Website Project to SASS / SCSS
 
 ## Technologies Used
 
@@ -19,4 +19,4 @@ Live demo [_here_](https://christianscholtysik.github.io/Photo_Gallery/).
 
 ## Screenshots
 
-![Example screenshot](./assets/img/christianscholtysik-github-io-1728xFULLdesktop-51f944.png)
+![Example screenshot](./assets/img/christianscholtysik-github-io-1920x768desktop-c44237.png)
